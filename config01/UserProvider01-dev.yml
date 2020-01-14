@@ -2,7 +2,7 @@ spring:
   application:
     name: UserProvider01
   datasource:
-    url: jdbc:mysql:///cloud0909?serverTimeZone=UTC
+    url: jdbc:mysql://db1:3306/cloud0909?serverTimeZone=UTC
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
     password: 123
@@ -11,6 +11,5 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-server:
-  port: 9090
+
 pversion: userProvider01-UpdateA
