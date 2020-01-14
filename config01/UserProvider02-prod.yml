@@ -2,11 +2,11 @@ spring:
   application:
     name: UserProvider02
   datasource:
-    url: jdbc:mysql:///cloud0909?serverTimezone=UTC
+    url: jdbc:mysql:///cloud0909
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
     password: 123
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
